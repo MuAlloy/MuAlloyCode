@@ -1,0 +1,15 @@
+pred Acyclic[l: List] {
+(no n: (one ((l.header).(*link))) {
+(n !in (n.(^link)))
+})
+}
+|
+{
+(no n: (one ((l.header).(*link))) {
+(n !in (n.(^link)))
+})
+}
+|
+(no n: (one ((l.header).(*link))) {
+(n !in (n.(^link)))
+})

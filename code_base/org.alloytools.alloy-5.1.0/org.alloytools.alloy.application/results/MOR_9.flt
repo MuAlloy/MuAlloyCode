@@ -1,0 +1,3 @@
+some sig Node {
+link: (lone Node)
+}

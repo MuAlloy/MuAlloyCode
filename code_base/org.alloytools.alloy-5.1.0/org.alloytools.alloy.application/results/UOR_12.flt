@@ -1,0 +1,7 @@
+sig Node {
+link: (some Node)
+}
+|
+link: (some Node)
+|
+(some Node)

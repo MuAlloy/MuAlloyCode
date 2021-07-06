@@ -1,0 +1,7 @@
+sig List {
+header: (some Node)
+}
+|
+header: (some Node)
+|
+(some Node)

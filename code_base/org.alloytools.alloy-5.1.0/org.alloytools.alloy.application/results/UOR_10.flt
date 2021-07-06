@@ -1,0 +1,7 @@
+sig Node {
+link: (set Node)
+}
+|
+link: (set Node)
+|
+(set Node)

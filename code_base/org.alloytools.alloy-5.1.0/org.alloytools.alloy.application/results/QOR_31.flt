@@ -1,0 +1,21 @@
+pred NodesConnected[] {
+(lone n: (one Node) {
+(some l: (one List) {
+(n in ((l.header).(*link)))
+})
+})
+}
+|
+{
+(lone n: (one Node) {
+(some l: (one List) {
+(n in ((l.header).(*link)))
+})
+})
+}
+|
+(lone n: (one Node) {
+(some l: (one List) {
+(n in ((l.header).(*link)))
+})
+})
